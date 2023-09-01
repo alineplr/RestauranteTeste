@@ -26,7 +26,6 @@ object frmReceita: TfrmReceita
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitWidth = 1044
     object pnBotaoReceita: TPanel
       Left = 0
       Top = 587
@@ -35,7 +34,6 @@ object frmReceita: TfrmReceita
       Align = alBottom
       BevelOuter = bvNone
       TabOrder = 0
-      ExplicitWidth = 1044
       DesignSize = (
         1052
         45)
@@ -867,7 +865,6 @@ object frmReceita: TfrmReceita
       BevelOuter = bvNone
       Enabled = False
       TabOrder = 1
-      ExplicitWidth = 1044
       object Label1: TLabel
         Left = 16
         Top = 16
@@ -910,7 +907,6 @@ object frmReceita: TfrmReceita
       BevelOuter = bvNone
       BorderWidth = 10
       TabOrder = 2
-      ExplicitWidth = 1044
       object Panel5: TPanel
         Left = 10
         Top = 51
@@ -919,9 +915,6 @@ object frmReceita: TfrmReceita
         Align = alClient
         BevelOuter = bvNone
         TabOrder = 0
-        ExplicitLeft = 14
-        ExplicitTop = 14
-        ExplicitHeight = 205
         object Label3: TLabel
           Left = 0
           Top = -3
@@ -1021,9 +1014,6 @@ object frmReceita: TfrmReceita
         Align = alRight
         BevelOuter = bvNone
         TabOrder = 2
-        ExplicitLeft = 976
-        ExplicitTop = 10
-        ExplicitHeight = 205
         object brInserirRecRec: TBitBtn
           Left = 10
           Top = 2
@@ -1271,8 +1261,6 @@ object frmReceita: TfrmReceita
         BevelOuter = bvNone
         BorderWidth = 10
         TabOrder = 3
-        ExplicitLeft = 18
-        ExplicitTop = 18
         object Label10: TLabel
           Left = 10
           Top = 10
@@ -1309,9 +1297,6 @@ object frmReceita: TfrmReceita
         Align = alClient
         BevelOuter = bvNone
         TabOrder = 0
-        ExplicitTop = 10
-        ExplicitWidth = 966
-        ExplicitHeight = 270
         object Label6: TLabel
           Left = 0
           Top = 3
@@ -1412,9 +1397,6 @@ object frmReceita: TfrmReceita
         Align = alRight
         BevelOuter = bvNone
         TabOrder = 2
-        ExplicitLeft = 976
-        ExplicitTop = 10
-        ExplicitHeight = 270
         object btInserirRecIns: TBitBtn
           Left = 10
           Top = 0
@@ -1662,7 +1644,6 @@ object frmReceita: TfrmReceita
         BevelOuter = bvNone
         BorderWidth = 10
         TabOrder = 3
-        ExplicitTop = 6
         object Label9: TLabel
           Left = 10
           Top = 10
@@ -1977,6 +1958,27 @@ object frmReceita: TfrmReceita
       FieldName = 'DSINSUMO'
       Required = True
       Size = 100
+    end
+  end
+  object qryConfirmaRelacionamento: TSQLQuery
+    MaxBlobSize = -1
+    Params = <
+      item
+        DataType = ftFixedChar
+        Name = 'CDRECEITA'
+        ParamType = ptInput
+      end>
+    SQL.Strings = (
+      'select CDRECEITA from cadrecrec'
+      'where cdreceitacomp = :CDRECEITA')
+    SQLConnection = dmPrincipal.cnRestauranteTeste
+    Left = 888
+    Top = 416
+    object qryConfirmaRelacionamentoCDRECEITA: TStringField
+      FieldName = 'CDRECEITA'
+      Required = True
+      FixedChar = True
+      Size = 10
     end
   end
 end

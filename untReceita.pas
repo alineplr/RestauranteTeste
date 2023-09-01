@@ -103,6 +103,8 @@ type
     Label9: TLabel;
     Panel3: TPanel;
     Label10: TLabel;
+    qryConfirmaRelacionamento: TSQLQuery;
+    qryConfirmaRelacionamentoCDRECEITA: TStringField;
     procedure FormCreate(Sender: TObject);
     procedure clReceitaAfterScroll(DataSet: TDataSet);
     procedure btAlterarRecInsClick(Sender: TObject);
@@ -249,7 +251,10 @@ begin
 if messagedlg('Deseja apagar a receita ' + clReceita.FieldByName('DSRECEITA').AsString + '?' ,mtconfirmation,[mbyes,mbno],0)= mryes then
 begin
   try
-  if ((clReceitaReceita.IsEmpty) and (clReceitaInsumo.IsEmpty)) then
+  qryConfirmaRelacionamento.Close;
+  qryConfirmaRelacionamento.ParamByName('CDRECEITA').AsString :=  clReceita.FieldByName('CDRECEITA').AsString;
+  qryConfirmaRelacionamento.Open;
+  if ((clReceitaReceita.IsEmpty) and (clReceitaInsumo.IsEmpty) and (qryConfirmaRelacionamento.IsEmpty)) then
     begin
     clReceita.Delete;
     if clReceita.ApplyUpdates(0) = 0 then
