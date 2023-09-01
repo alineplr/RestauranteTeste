@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/08/30 13:44:50.000.094,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/30 13:50:59.000.290,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/08/30 14:07:44.000.417,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/10/15 09:16:24.000.042,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/05/25 11:37:31.000.289,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/28 17:51:34.000.111,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/06/28 18:57:56.000.011,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/03 18:58:47.000.971,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/04 17:26:20.000.529,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/04 19:08:49.000.305,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/04 19:09:45.000.836,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/22 11:40:39.000.443,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/24 17:46:49.000.093,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/30 17:19:42.000.408,=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/30 22:13:27.000.394,D:\Sistema\RestauranteTeste\Projeto\untReceita.pas=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/30 22:13:27.000.394,D:\Sistema\RestauranteTeste\Projeto\untReceita.dfm=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/08/30 22:13:42.000.002,D:\Sistema\RestauranteTeste\Projeto\prjRestauranteTeste.dproj=C:\Users\Aline\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/08/31 09:28:02.000.982,=D:\Sistema\RestauranteTeste\Projeto\Unit1.pas</Transaction>
+    <Transaction>2023/08/31 09:28:43.000.206,D:\Sistema\RestauranteTeste\Projeto\Unit1.dfm=D:\Sistema\RestauranteTeste\Projeto\untdmPrincipal.dfm</Transaction>
+    <Transaction>2023/08/31 09:28:43.000.206,D:\Sistema\RestauranteTeste\Projeto\Unit1.pas=D:\Sistema\RestauranteTeste\Projeto\untdmPrincipal.pas</Transaction>
+    <Transaction>2023/08/31 09:29:48.000.607,=D:\Sistema\RestauranteTeste\Projeto\Unit2.pas</Transaction>
+    <Transaction>2023/08/31 09:51:27.000.072,D:\Sistema\RestauranteTeste\Projeto\Unit2.dfm=D:\Sistema\RestauranteTeste\Projeto\untConsReceita.dfm</Transaction>
+    <Transaction>2023/08/31 09:51:27.000.072,D:\Sistema\RestauranteTeste\Projeto\Unit2.pas=D:\Sistema\RestauranteTeste\Projeto\untConsReceita.pas</Transaction>
+    <Transaction>2023/08/31 21:52:57.003,=D:\Sistema\RestauranteTeste\Projeto\untConsInsumo.pas</Transaction>
+  </Transactions>
+</BorlandProject>
